@@ -1,0 +1,23 @@
+{
+    "name"       : "Crimper",
+    "version"    : "0.0.1",
+    "description": "Data entry app for tracking indoor climbing sessions (Heroku distro)",
+
+    "author": {
+        "name" : "JSYang",
+        "email": "jsyang.ca@gmail.com"
+    },
+
+    "repository": {
+        "type": "git",
+        "url" : "https://github.com/jsyang/crimper-heroku.git"
+    },
+
+    "scripts": {
+        "start" : "node server/server.js"
+    },
+
+    "dependencies": {
+        "express" : "~4.10.7"
+    }
+}
